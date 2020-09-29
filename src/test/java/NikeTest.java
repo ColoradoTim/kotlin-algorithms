@@ -19,7 +19,6 @@ public class NikeTest {
     }
 }
 
-
 class Nike {
     public String solution(String T) {
         String[] array = T.split("");
@@ -27,7 +26,6 @@ class Nike {
 
         return String.join("", array);
     }
-
 
     private final String[] array = new String[]{"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
 
